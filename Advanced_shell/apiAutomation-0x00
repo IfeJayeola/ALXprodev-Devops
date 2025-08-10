@@ -9,7 +9,7 @@ else
 fi
 
 OUTPUT_FILE="data.json"
-ERROR_FILE="error.txt"
+ERROR_FILE="errors.txt"
 
 curl -s -f "$URL" -o "$OUTPUT_FILE"
 
